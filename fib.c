@@ -27,11 +27,20 @@ return 0; }
 
       long fibonacci(i)
         {
+        if (i == 0)
+        {
+            return 0;
+            }
+        if (i == 1) 
+        {   return 1;
+            }
+        else
+        {
         long a = 0;
         long b = 1;
         int n;
         long c;
-        for (n = 0; n <=i; n++)
+        for (n = 2; n <=i; n++)
           {
           c = a + b;
           a = b;
@@ -39,4 +48,4 @@ return 0; }
           }
         return c;
           }
-        
+        }

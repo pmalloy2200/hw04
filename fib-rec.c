@@ -23,7 +23,7 @@ return 0; }
       long fibonacci(int i)
       {
       if (i == 0)
-        return 1;
+        return 0;
       if (i == 1)
         return 1;
       else
